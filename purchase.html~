@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Card Buggy</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/app.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Cool Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+    <link href='fonts/cards.ttf' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <!-- Full Page Background -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand subdued" href="index.html">The Card Buggy</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class = "active-page">
+                        <a href="services.html" class = "active-page">Purchase</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                <div class="col-sm-4">
+                        <div class="title-img-purchase">
+                            <img class = "img-responsive" src="img/NEWCARDBUGGY.png">
+                        </div>
+                </div>
+                    <div class="col-sm-6 col-sm-offset-2 purchase-field">
+                        <div class = "col-sm-12">
+                        <h1>$67.00</h1>
+                        <p>Pellenteque habitent morbi tristque senecus et netus et malesuada fames
+                        ac turpis egestas. Vestibulum tortor quam. feugiat vitae, ultricies eget,
+                        tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. 
+                        Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+                        <ul>
+                            <li><i>Dopnec eu libero</i></li>
+                            <li><b>Aenean ultrices</b></li>
+                            <li>Vestibulum tortor</li>
+                        </ul>
+
+                        </div>
+                    <div class = "col-sm-6">
+                    <form>
+                        <a href="href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=T7LnPkRSae7Is3yVCl7WEKj4a1joCnoiFoAmrUQHvSv7mD6IzhVWME7A3UW&dispatch=50a222a57771920b6a3d7b606239e4d529b525e0b7e69bf0224adecfb0124e9b61f737ba21b0819848475f0da5465a2ea26eae033cbe3bda"><button type="button" class="btn btn-primary btn-lg btn-block">Place In Cart</button></a>
+                    </form>
+                    </div>
+                    <div class = "col-sm-6">
+                        <div class = "btn-group">
+                            <button type="button " class="btn btn-success btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="str-only">How Many</span>
+                            </button>
+                            <div class = "dropdown-menu">
+                                    <button type="button" class="btn btn-default btn-block">1</button>
+                                <button type="button" class="btn btn-default btn-block">2</button>
+                                <button type="button" class="btn btn-default btn-block">3</button>
+                                <button type="button" class="btn btn-default btn-block">4</button>
+                                <button type="button" class="btn btn-default btn-block">5</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-sm-12">
+                        <p>If you wish to purchase directly from the seller, please contact us at
+                        rob@cardbuggy.com and we will help you out!</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./content -->
+    <!-- /.Full Page Background -->
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+</body>
+
+</html>
